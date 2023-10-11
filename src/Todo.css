@@ -1,0 +1,110 @@
+/* Todo.css */
+
+/* Style for the heading */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Style for the form container */
+  form {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px; /* Add some padding to the form container */
+    border-radius: 4px; /* Add rounded corners to the form container */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  /* Style for the input field */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Style for the submit button */
+  button[type="submit"] {
+    padding-top: 5%;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #000000;
+  }
+  
+  /* Style for the todo list container */
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    border: 2px solid #ccc; /* Add a border around the todo list */
+    border-radius: 4px; /* Add rounded corners to the todo list */
+    padding: 20px; /* Add some padding to the todo list container */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for each todo item */
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the checkbox */
+  input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the delete button */
+  button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: auto;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Style for the update button */
+  .update-button {
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  
+  .update-button:hover {
+    background-color: #138496;
+  }
+  /* Add this CSS rule */
+  .todo-item.done span {
+    text-decoration: line-through;
+  }
+  

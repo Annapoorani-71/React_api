@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "title": "Studying",
+      "id": 1
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
